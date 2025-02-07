@@ -106,14 +106,6 @@ nav.scrolled {
     line-height: 8.5vw;
     color: rgb(140, 28, 3);
 }
-/* 
-#page1 h1 svg {
-    height: 6vw;
-    border-radius: 50%;
-    width: 6vw;
-    background-color: #0BA34E;
-} */
-
 #page1 p {
     text-align: center;
     font-weight: 400;
