@@ -203,7 +203,6 @@ function page6Animations() {
     })
 
 }
-
 locomotiveAnimation()
 
 // navAnimation()

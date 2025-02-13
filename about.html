@@ -20,7 +20,158 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    /* Base Styles */
+#page8 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 55px;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+}
 
+#page8 .page8-left {
+    width: 100%; /* Full width on smaller screens */
+    padding: 20px; /* Reduced padding for smaller screens */
+}
+
+#page8 .page8-left h2 {
+    font-size: 6vw; /* Larger font size for smaller screens */
+    font-weight: 800;
+    text-wrap: pretty;
+    color: rgb(140, 28, 3);
+}
+
+#page8 .page8-right {
+    width: 100%; /* Full width on smaller screens */
+}
+
+#page8 .page8-right h6 {
+    color: #e63946;
+    font-size: 4vw; /* Larger font size for smaller screens */
+    font-weight: 400;
+    margin: 20px 0; /* Adjusted margin for smaller screens */
+}
+
+#page8 .page8-right h3 {
+    color: whitesmoke;
+    font-size: 3.5vw; /* Larger font size for smaller screens */
+    line-height: 1.5; /* Adjusted line height for readability */
+    font-weight: 300;
+    margin-top: 15px; /* Adjusted margin for smaller screens */
+    font-family: serif;
+}
+
+.page8-2 {
+    width: 100%;
+    min-height: 100vh; /* Use min-height to ensure it takes full height */
+    padding: 10px 20px; /* Reduced padding for smaller screens */
+}
+
+.page8-2 .card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    align-items: center;
+    justify-content: center;
+}
+
+.page8-2 .card-container .card {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Auto height to fit content */
+    background-color: whitesmoke;
+    margin: 10px 0; /* Adjusted margin for smaller screens */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.page8-2 .card-container .card h4 {
+    color: #000;
+    font-size: 6vw; /* Larger font size for smaller screens */
+    line-height: 1.2; /* Adjusted line height for readability */
+    font-weight: 600;
+    margin: 10px; /* Adjusted margin for smaller screens */
+}
+
+.page8-2 .card-container .card .card-content {
+    width: 100%;
+    height: auto; /* Auto height to fit content */
+    display: flex;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px; /* Reduced padding for smaller screens */
+}
+
+.page8-2 .card-container .card .card-content p {
+    color: rgb(24, 22, 22);
+    font-size: 3vw; /* Larger font size for smaller screens */
+    font-weight: 300;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+    #page8 {
+        flex-direction: row; /* Revert to horizontal layout on larger screens */
+        padding: 50px 55px;
+    }
+
+    #page8 .page8-left {
+        width: 30%; /* Revert to original width on larger screens */
+        padding: 50px 30px;
+    }
+
+    #page8 .page8-left h2 {
+        font-size: 2.6vw; /* Revert to original font size on larger screens */
+    }
+
+    #page8 .page8-right {
+        width: 50%; /* Revert to original width on larger screens */
+    }
+
+    #page8 .page8-right h6 {
+        font-size: 2vw; /* Revert to original font size on larger screens */
+        margin: 35px 0;
+    }
+
+    #page8 .page8-right h3 {
+        font-size: 1.4vw; /* Revert to original font size on larger screens */
+        line-height: 2vw;
+        margin-top: 25px;
+    }
+
+    .page8-2 {
+        padding: 10px 55px;
+    }
+
+    .page8-2 .card-container {
+        flex-direction: row; /* Revert to horizontal layout on larger screens */
+    }
+
+    .page8-2 .card-container .card {
+        width: 31%; /* Revert to original width on larger screens */
+        height: 250px;
+        margin: 5px;
+    }
+
+    .page8-2 .card-container .card h4 {
+        font-size: 3.2vw; /* Revert to original font size on larger screens */
+        line-height: 3.2vw;
+        margin: 2vw;
+    }
+
+    .page8-2 .card-container .card .card-content {
+        flex-direction: row; /* Revert to horizontal layout on larger screens */
+        padding: 2vw;
+    }
+
+    .page8-2 .card-container .card .card-content p {
+        font-size: 0.8vw; /* Revert to original font size on larger screens */
+    }
+}
+</style>
   <body>
     <div id="main">
         <div id="page8">
